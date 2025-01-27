@@ -21,7 +21,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile1.png.jpg"
   name             : "Vincent Ondeng"
   pronouns         : # example: "she/her"  
   bio              : "Geospatial Data Scientist and Machine Learning Engineer"
@@ -45,7 +45,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "https://github.com/vincentondeng"
-  kaggle           : # Username  
+  kaggle           : "https://www.kaggle.com/vincentondeng"  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
