@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-# 👋 Welcome to My Digital Space!  
-
-Hi there! I’m **Vincent Ondeng**, a curious mind navigating the intersections of **data, location, and innovation**. 🌍✨ My journey so far has been a blend of:  
+I’m **Vincent Ondeng**, a curious mind navigating the intersections of **data, location, and innovation**. 🌍✨ My journey so far has been a blend of:  
 
 - 🗺️ **Geospatial Engineering** – Crafting solutions using GIS, remote sensing, and spatial analysis.  
 - 📊 **Research & Modeling** – Tackling challenges in health and environment, with a focus on **malaria prediction** and **climate resilience**.  
