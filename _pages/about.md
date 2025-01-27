@@ -45,5 +45,5 @@ When I’m not buried in code or maps, you’ll find me:
 Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello! 😊  
 
 
-> “Geospatial data isn’t just about maps—it’s about unlocking patterns that shape the world around us.” 🌍
+> “Geospatial data isn’t just about maps—it’s about unlocking patterns within patterns that shape the world around us.” 🌍
 
