@@ -7,10 +7,12 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Vincent Ondeng**, a curious mind navigating the intersections of **data, location, and innovation**. 🌍✨ My journey so far has been a blend of:  
+a curious mind navigating the intersections of **data, location, and innovation**. 🌍✨ My journey so far has been a blend of:  
 
-- 🗺️ **Geospatial Engineering** – Crafting solutions using GIS, remote sensing, and spatial analysis.  
-- 📊 **Research & Modeling** – Tackling challenges in health and environment, with a focus on **malaria prediction** and **climate resilience**.  
+- 🗺️ **Geospatial Engineering** – Crafting solutions using GIS, remote sensing, and spatial analysis.
+
+- 📊 **Research & Modeling** – Tackling challenges in health and environment, with a focus on **malaria prediction** and **climate resilience**.
+
 - 💻 **Tech & AI Enthusiast** – Leveraging Python, machine learning, and data visualization to uncover meaningful insights.  
 
 ---
@@ -19,7 +21,7 @@ I’m **Vincent Ondeng**, a curious mind navigating the intersections of **data,
 
 I’m passionate about **creating impact** through data-driven solutions. From **predicting floods** to assessing the health impacts of extreme weather, I thrive on turning challenges into opportunities. 🌱  
 
-Currently, I’m diving deeper into the world of **infectious disease modeling** through my master’s program in Mathematical Sciences. My work centers around **malaria modeling** and exploring innovative ways to support public health systems in **low- and middle-income countries**.
+Currently, I’m diving deeper into the world of **infectious disease modeling** through my master’s program in Mathematical Sciences. My work centers around innovative ways to support public health systems in **low- and middle-income countries**.
 
 ---
 
