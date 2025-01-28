@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-a curious mind navigating the intersections of **data, location, and innovation**. 🌍✨ My journey so far has been a blend of:  
+a curious mind navigating the intersections of **data, location, and innovation**. My journey so far has been a blend of:  
 
 - 🗺️ **Geospatial Engineering** – Crafting solutions using GIS, remote sensing, and spatial analysis.
 
@@ -19,7 +19,7 @@ a curious mind navigating the intersections of **data, location, and innovation*
 
 ## 🌟 What Drives Me  
 
-I’m passionate about **creating impact** through data-driven solutions. From **predicting floods** to assessing the health impacts of extreme weather, I thrive on turning challenges into opportunities. 🌱  
+I’m passionate about **creating impact** through data-driven solutions. From **predicting floods** to assessing the health impacts of extreme weather, I thrive on turning challenges into opportunities.  
 
 Currently, I’m diving deeper into the world of **infectious disease modeling** through my master’s program in Mathematical Sciences. My work centers around innovative ways to support public health systems in **low- and middle-income countries**.
 
@@ -42,7 +42,7 @@ When I’m not buried in code or maps, you’ll find me:
 - 📚 **Reading and Learning** – Always curious about what’s next in science and innovation.  
 - 🗣️ **Volunteering** – Giving back to communities that inspire me.  
 
-Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello! 😊  
+Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
 
 
 > “Geospatial data isn’t just about maps—it’s about unlocking patterns within patterns that shape the world around us.” 🌍
