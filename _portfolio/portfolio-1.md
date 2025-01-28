@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Prediction of Early Marriages: A data-driven approach to solving a real challenge"
+excerpt: "Early Marriage remains a critical issue in Country X, with profound social, economic and health consequences. In this project, I am going to predict explore some factors that are likely to contribute to Early Marriages in this country. Additionally, I am going to anyalyze how using Apache Spark instead of sklearn reduces model training time significantly. <br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
