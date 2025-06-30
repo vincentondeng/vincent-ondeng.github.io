@@ -199,3 +199,5 @@ The results from the models indicate solid performance, with Gradient Boosting a
 +---------------------+--------------------+
 ```
 The exact methodology is again implemented with spark. While the perfomance of the models remain relatively the same. Spark has a higher capability of handling large datasets once it has been cached.
+
+The complete notebook can be accessed by following the following link: https://github.com/vincentondeng/BDA-with-Python/blob/main/vincent_ondeng_BDAPPr%20(1).ipynb
