@@ -127,5 +127,75 @@ For those with technical college education, the average age increases further to
 To predict early marriage, the target variable is created from age at first marriage. A threshold age, such as 20 years, is used to define early marriage. If someone marries at or before this age, the target variable is assigned a value of 1 (early marriage). If they marry after this age, the target variable is assigned a value of 0 (late marriage). This converts the age at first marriage into a binary classification variable.
 
 In order to gain an initial understanding of which variables might be important for classification, I used a Random Forest model with 10 trees. This helped me get a rough idea of the variables that could potentially be useful in predicting early marriage, even though the results were not highly accurate. The Random Forest model provided an overview of the feature importances, giving me insight into which variables were likely contributing the most to the classification task. While this approach didn't provide precise feature rankings, it served as a useful starting point to identify the key features that might be worth further exploration and refinement in the modeling process.
+```
+Top 20 Most Important Features:
+                      Feature  Importance
+7             age_at_marriage        0.84
+6                         age        0.05
+54                      sex_1        0.02
+21           head_household_1        0.02
+3                     COMMUNE        0.01
+4                       hh_id        0.01
+2                    DISTRICT        0.01
+38  local_language_literacy_0        0.00
+39  local_language_literacy_1        0.00
+5                    indiv_id        0.00
+9                num_children        0.00
+8                     hh_size        0.00
+35        school_attendance_1        0.00
+0                    PROVINCE        0.00
+11                   MILIEU_1        0.00
+41          french_literacy_1        0.00
+16           working_status_3        0.00
+31        highest_education_1        0.00
+48                   french_0        0.00
+50                  english_0        0.00
+```
 
 As for communes, their inclusion depends on their significance. If communes represent smaller geographic units with distinct socio-cultural characteristics that influence marriage timing, they could provide valuable insights. However, if the number of communes is large or their information overlaps with districts or regions, it might introduce redundancy.
+
+### Task 5 - Model Building
+Now I proceed to the model building section, where I implement different machine learning models and then compare their accuracy and perfomance in predicting Early Marriages of the dataset. These are Logistic regression, Random Forest and Gradient Boosting.
+
+```python
+def evaluate_models_sklearn(df_important_features):
+    # Define the target variable and features
+    target_var = 'early_marriage'
+    features = df_important_features.columns[df_important_features.columns != target_var]
+
+    # Split the data into training and testing sets
+    X = df_important_features[features]
+    y = df_important_features[target_var]
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+
+    # Initialize the models
+    models = {
+        "Logistic Regression": LR(max_iter=100, random_state=42,solver='saga'),
+        "Random Forest": RF(n_estimators=100, random_state=42, n_jobs=-1),
+        "Gradient Boosting": GBM(n_estimators=100, random_state=42),
+        "Extra Trees": ETC(n_estimators=100, random_state=42, n_jobs=-1)
+    }
+
+    # Train and evaluate each model
+    results = []
+    for name, model in models.items():
+        model.fit(X_train, y_train)
+        y_pred = model.predict(X_test)
+        accuracy = accuracy_score(y_test, y_pred)
+        results.append([name, accuracy])
+
+    # Print the results in a tabular format
+    print(tabulate(results, headers=["Model", "Accuracy"], tablefmt="pretty"))
+```
+The results from the models indicate solid performance, with Gradient Boosting achieving the highest accuracy at 81.53%, followed closely by Decision Tree at 80.34% and Random Forest at 80.14%. These ensemble models perform better than Logistic Regression, which had the lowest accuracy at 79.89%. This suggests that models like Gradient Boosting and Random Forest, which can handle complex patterns and non-linear relationships, are more effective for predicting early marriage compared to simpler models like Logistic Regression.
+```
++---------------------+--------------------+
+|        Model        |      Accuracy      |
++---------------------+--------------------+
+| Logistic Regression | 0.7793856191158197 |
+|    Random Forest    | 0.7930157638786258 |
+|  Gradient Boosting  | 0.815785951734737  |
+|     Extra Trees     | 0.7938609482937423 |
++---------------------+--------------------+
+```
+The exact methodology is again implemented with spark. While the perfomance of the models remain relatively the same. Spark has a higher capability of handling large datasets once it has been cached.
