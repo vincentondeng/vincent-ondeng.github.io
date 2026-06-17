@@ -1,49 +1,79 @@
 ---
 permalink: /
-title: "Hello there! I'm Vincent!"
+title: "Vincent Ondeng"
+description: "Geospatial Data Scientist & ML Engineer"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-a curious mind navigating the intersections of **data, location, and innovation**. My journey so far has been a blend of:  
-
--  **Geospatial Engineering** – Crafting solutions using GIS, remote sensing, and spatial analysis.
-
--  **Research & Modeling** – Tackling challenges in health and environment, with a focus on **malaria prediction** and **climate resilience**.
-
--  **Tech & AI Enthusiast** – Leveraging Python, machine learning, and data visualization to uncover meaningful insights.  
+As geospatial data grows in scale and complexity, so does the need for smarter tools and methods to make sense of it. I build spatial models and machine learning pipelines that turn vast location datasets into clear, actionable insights, helping urban planners and land use decision-makers across Africa understand where change is happening, why it matters, and what comes next.
 
 ---
 
-##  What Drives Me  
+## What Drives Me
 
-I’m passionate about **creating impact** through data-driven solutions. From **predicting floods** to assessing the health impacts of extreme weather, I thrive on turning challenges into opportunities.  
+Geospatial data sits at the heart of some of the most pressing challenges of our time where diseases spread, how cities expand, and how climate shifts reshape the 
+land beneath us.
 
-Currently, I’m diving deeper into the world of **infectious disease modeling** through my master’s program in Mathematical Sciences. My work centers around innovative ways to support public health systems in **low- and middle-income countries**.
-
----
-
-##  My Toolkit  
-
-Here are some of the tools and techniques I use to bring my ideas to life:  
--  **Programming**: Python (pandas, geopandas, scikit-learn), SQL  
--  **GIS & Remote Sensing**: QGIS, ArcGIS, Google Earth Engine  
--  **Data Science & Visualization**: Machine learning models, time series analysis, interactive dashboards  
--  **Big Data**: Processing large geospatial datasets for scalable insights  
+I build models and spatial systems that connect location patterns to real-world outcomes from mapping disease transmission corridors to understanding how urban growth and environmental stress compound each other across rapidly changing landscapes.
 
 ---
 
-##  Let’s Connect!  
+## My Toolkit
 
-When I’m not buried in code or maps, you’ll find me:  
--  **Exploring the Outdoors** – From scenic hikes to capturing nature’s beauty.  
--  **Reading and Learning** – Always curious about what’s next in science and innovation.  
--  **Volunteering** – Giving back to communities that inspire me.  
+**Spatial analysis & engineering**
+
+| Tool | Proficiency |
+|------|------------|
+| Python — GeoPandas, Rasterio, Shapely, Fiona | ████████████ Expert |
+| QGIS / ArcGIS — Cartography, field data | ███████████ Advanced |
+| Google Earth Engine — Change detection, time series | ██████████ Advanced |
+
+**Data science & modelling**
+
+| Tool | Proficiency |
+|------|------------|
+| Scikit-learn / PyTorch — Classification, deep learning | █████████ Advanced |
+| R / Tidyverse — Statistical modelling, visualization | █████████ Advanced |
+| PostGIS / PostgreSQL — Spatial queries, large datasets | ████████ Proficient |
+
+**Infrastructure & deployment**
+
+| Tool | Proficiency |
+|------|------------|
+| Docker — Containerized, reproducible pipelines | █████████ Advanced |
+| AWS / GCP / Azure — Cloud compute, geospatial APIs | ████████ Proficient |
+| Git / GitHub Actions — Version control, CI/CD | ██████████ Advanced |
+---
+
+## Let's connect
+
+Open to full-time roles, freelance projects, and research collaborations 
+in geospatial data science. Let's build something useful.
+
+<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:1rem;">
+  <a href="mailto:vincent.ondeng@aims.ac.rw" 
+     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
+            background:#1D9E75; color:white; border-radius:6px; 
+            text-decoration:none; font-size:14px;">
+    Email me
+  </a>
+  <a href="https://github.com/vincentondeng" target="_blank"
+     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
+            border:1px solid #ccc; border-radius:6px; 
+            text-decoration:none; font-size:14px; color:inherit;">
+    GitHub
+  </a>
+  <a href="https://kaggle.com/vincentondeng" target="_blank"
+     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
+            border:1px solid #ccc; border-radius:6px; 
+            text-decoration:none; font-size:14px; color:inherit;">
+    Kaggle
+  </a>
+</div>
 
 Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
 
-
-> “Geospatial data isn’t just about maps—it’s about unlocking patterns within patterns that shape the world around us.” 🌍
 
