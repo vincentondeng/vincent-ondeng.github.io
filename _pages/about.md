@@ -139,7 +139,6 @@ Open to full-time roles, freelance projects, and research collaborations in geos
 
 <div class="social-links">
   <a href="mailto:vincent.ondeng@aims.ac.rw" class="btn primary">
-    <!-- Email Icon -->
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z"/>
       <path d="M0 6.383v5.617A2 2 0 0 0 2 14h12a2 2 0 0 0 2-2V6.383l-8 4.8-8-4.8z"/>
@@ -148,75 +147,76 @@ Open to full-time roles, freelance projects, and research collaborations in geos
   </a>
 
   <a href="https://github.com/vincentondeng" target="_blank" class="btn github">
-    <!-- GitHub Icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 
-      2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 
-      0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52
-      0-.53.63-.01 1.08.58 1.23.82.72 1.21 
-      1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 
-      0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 
-      0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 
-      1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 
-      1.1.16 1.92.08 2.12.51.56.82 1.27.82 
-      2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 
-      1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 
-      8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."/>
     </svg>
     GitHub
   </a>
 
   <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn kaggle">
-    <!-- Kaggle Icon -->
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
-      <path d="M4.5 3v18h3v-7.5l7.5 7.5h4.5l-8.25-8.25L19.5 3h-4.5l-7.5 7.5V3h-3z"/>
+      <path d="M12 0C5.373 0 0 5.373..."/>
     </svg>
     Kaggle
   </a>
 
   <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn linkedin">
-    <!-- LinkedIn Icon -->
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 
-      0 16 .513 16 1.146v13.708c0 .633-.526 
-      1.146-1.175 1.146H1.175C.526 16 0 
-      15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.21c.837 
-      0 1.358-.554 1.358-1.248-.015-.71-.52-1.248-1.342-1.248-.822 
-      0-1.358.538-1.358 1.248 0 .694.521 
-      1.248 1.327 1.248h.015zm4.908 
-      8.21h2.4V9.359c0-.216.016-.432.08-.586.176-.432.577-.88 
-      1.25-.88.881 0 1.234.664 1.234 
-      1.637v4.864h2.4V9.25c0-2.22-1.18-3.252-2.757-3.252-1.274 
-      0-1.845.7-2.165 1.19h.016v-1.02h-2.4c.03.664 
-      0 7.225 0 7.225z"/>
+      <path d="M1.146 1.146C.5 1.793..."/>
     </svg>
     LinkedIn
   </a>
 
   <a href="https://twitter.com/vincentondeng" target="_blank" class="btn twitter">
-    <!-- Twitter Icon -->
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-      <path d="M5 15c6.627 0 10.25-5.373 
-      10.25-10.25 0-.156 0-.312-.01-.468A7.348 
-      7.348 0 0 0 16 2.542a7.19 7.19 0 0 1-2.05.562 
-      3.58 3.58 0 0 0 1.57-1.975 7.19 7.19 0 0 1-2.27.868 
-      3.58 3.58 0 0 0-6.1 3.265A10.16 10.16 0 0 1 
-      1.114 1.6a3.58 3.58 0 0 0 1.11 4.776A3.55 
-      3.55 0 0 1 .7 5.7v.045a3.58 3.58 0 0 0 
-      2.87 3.51 3.58 3.58 0 0 1-1.61.06 3.58 
-      3.58 0 0 0 3.34 2.48A7.19 7.19 0 0 1 
-      0 13.29a10.14 10.14 0 0 0 5 1.465"/>
+      <path d="M5 15c6.627 0 10.25-5.373..."/>
     </svg>
     Twitter
   </a>
 
   <a href="https://medium.com/@vincentondeng" target="_blank" class="btn medium">
-    <!-- Medium Icon -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 1043.63 592.58">
-      <path d="M588.67 296.29c0 163.67-131.93 296.29-294.33 
-      296.29S0 459.96 0 296.29 131.93 0 294.33 
-      0s294.34 132.62 294.34 296.29zM911.64 
-      296.29c0 154.19-65.97 279.09-147.36 
-      279.09s-147.36-124.9-147.36-279.09 
-      65.97-279.09 147.36-279.09 147.36 
-      124.9 147.36 
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M2 2h12v12H2z"/>
+    </svg>
+    Medium
+  </a>
+</div>
+
+<style>
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn svg {
+  flex-shrink: 0;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+/* Platform-specific colors */
+.primary { background: #1D9E75; }       /* Email */
+.github { background: #333; }           /* GitHub */
+.kaggle { background: #20beff; }        /* Kaggle */
+.linkedin { background: #0077b5; }      /* LinkedIn */
+.twitter { background: #1da1f2; }       /* Twitter */
+.medium { background: #000; }           /* Medium */
+</style>
