@@ -110,8 +110,7 @@ I build models and spatial systems that connect location patterns to real-world 
 
 ## Let's connect
 
-Open to full-time roles, freelance projects, and research collaborations 
-in geospatial data science. Let's build something useful.
+Open to full-time roles, freelance projects, and research collaborations in geospatial data science. Let's build something useful. Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
 
 <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:1rem;">
   <a href="mailto:vincent.ondeng@aims.ac.rw" 
@@ -133,7 +132,3 @@ in geospatial data science. Let's build something useful.
     Kaggle
   </a>
 </div>
-
-Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
-
-
