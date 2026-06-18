@@ -139,11 +139,11 @@ Open to full-time roles, freelance projects, and research collaborations in geos
 
 <div class="social-links">
   <a href="mailto:vincent.ondeng@aims.ac.rw" class="btn primary">Email</a>
-  <a href="https://github.com/vincentondeng" target="_blank" class="btn">GitHub</a>
-  <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn">Kaggle</a>
-  <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn">LinkedIn</a>
-  <a href="https://twitter.com/vincentondeng" target="_blank" class="btn">Twitter</a>
-  <a href="https://medium.com/@vincentondeng" target="_blank" class="btn">Medium</a>
+  <a href="https://github.com/vincentondeng" target="_blank" class="btn github">GitHub</a>
+  <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn kaggle">Kaggle</a>
+  <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn linkedin">LinkedIn</a>
+  <a href="https://twitter.com/vincentondeng" target="_blank" class="btn twitter">Twitter</a>
+  <a href="https://medium.com/@vincentondeng" target="_blank" class="btn medium">Medium</a>
 </div>
 
 <style>
@@ -157,30 +157,27 @@ Open to full-time roles, freelance projects, and research collaborations in geos
 .btn {
   display: inline-flex;
   align-items: center;
-  padding: 8px 18px;
+  justify-content: center;
+  padding: 10px 18px;
   border-radius: 6px;
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
-  color: #333;
-  border: 1px solid #ccc;
-  background: #fff;
+  color: #fff;
   transition: all 0.25s ease-in-out;
 }
 
+/* Default button style */
 .btn:hover {
-  background: #f5f5f5;
-  border-color: #999;
+  opacity: 0.9;
   transform: translateY(-2px);
 }
 
-.btn.primary {
-  background: #1D9E75;
-  color: #fff;
-  border: none;
-}
-
-.btn.primary:hover {
-  background: #148f66;
-}
+/* Platform-specific colors */
+.primary { background: #1D9E75; }       /* Email */
+.github { background: #333; }           /* GitHub */
+.kaggle { background: #20beff; }        /* Kaggle */
+.linkedin { background: #0077b5; }      /* LinkedIn */
+.twitter { background: #1da1f2; }       /* Twitter */
+.medium { background: #000; }           /* Medium */
 </style>
