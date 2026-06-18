@@ -23,30 +23,90 @@ I build models and spatial systems that connect location patterns to real-world 
 
 ## My Toolkit
 
-**Spatial analysis & engineering**
+** Spatial Analysis & Engineering **
 
-| Tool | Proficiency |
-|------|------------|
-| Python — GeoPandas, Rasterio, Shapely, Fiona | ████████████ Expert |
-| QGIS / ArcGIS — Cartography, field data | ███████████ Advanced |
-| Google Earth Engine — Change detection, time series | ██████████ Advanced |
+<div class="skill">
+  <div class="skill-title">Python</div>
+  <div class="skill-sub">GeoPandas · Rasterio · Shapely · Fiona</div>
+  <div class="progress"><div class="progress-bar python"></div></div>
+</div>
 
-**Data science & modelling**
+<div class="skill">
+  <div class="skill-title">QGIS / ArcGIS</div>
+  <div class="skill-sub">Spatial processing · Cartography · Field data</div>
+  <div class="progress"><div class="progress-bar qgis"></div></div>
+</div>
 
-| Tool | Proficiency |
-|------|------------|
-| Scikit-learn / PyTorch — Classification, deep learning | █████████ Advanced |
-| R / Tidyverse — Statistical modelling, visualization | █████████ Advanced |
-| PostGIS / PostgreSQL — Spatial queries, large datasets | ████████ Proficient |
+<div class="skill">
+  <div class="skill-title">Google Earth Engine</div>
+  <div class="skill-sub">Land cover · Change detection · Time series</div>
+  <div class="progress"><div class="progress-bar gee"></div></div>
+</div>
 
-**Infrastructure & deployment**
-
-| Tool | Proficiency |
-|------|------------|
-| Docker — Containerized, reproducible pipelines | █████████ Advanced |
-| AWS / GCP / Azure — Cloud compute, geospatial APIs | ████████ Proficient |
-| Git / GitHub Actions — Version control, CI/CD | ██████████ Advanced |
 ---
+
+## Data Science & Modelling
+
+<div class="skill">
+  <div class="skill-title">Scikit-learn / PyTorch</div>
+  <div class="skill-sub">Classification · Deep learning</div>
+  <div class="progress"><div class="progress-bar pytorch"></div></div>
+</div>
+
+<div class="skill">
+  <div class="skill-title">R / Tidyverse</div>
+  <div class="skill-sub">Statistical modelling · Visualization</div>
+  <div class="progress"><div class="progress-bar r"></div></div>
+</div>
+
+<div class="skill">
+  <div class="skill-title">PostGIS / PostgreSQL</div>
+  <div class="skill-sub">Spatial queries · Large datasets</div>
+  <div class="progress"><div class="progress-bar postgis"></div></div>
+</div>
+
+---
+
+## Infrastructure & Deployment
+
+<div class="skill">
+  <div class="skill-title">Docker</div>
+  <div class="skill-sub">Containerized · Reproducible pipelines</div>
+  <div class="progress"><div class="progress-bar docker"></div></div>
+</div>
+
+<div class="skill">
+  <div class="skill-title">AWS / GCP / Azure</div>
+  <div class="skill-sub">Cloud compute · Geospatial APIs</div>
+  <div class="progress"><div class="progress-bar cloud"></div></div>
+</div>
+
+<div class="skill">
+  <div class="skill-title">Git / GitHub Actions</div>
+  <div class="skill-sub">Version control · CI/CD</div>
+  <div class="progress"><div class="progress-bar git"></div></div>
+</div>
+
+<style>
+.skill { margin-bottom: 25px; }
+.skill-title { font-weight: bold; font-size: 1.1em; margin-bottom: 5px; color: #34495e; }
+.skill-sub { font-size: 0.95em; color: #555; margin-bottom: 8px; }
+.progress { background-color: #eee; border-radius: 6px; overflow: hidden; height: 14px; }
+.progress-bar { height: 100%; border-radius: 6px; }
+
+/* Widths/colors for each skill */
+.python { width: 90%; background-color: #27ae60; }
+.qgis { width: 70%; background-color: #2980b9; }
+.gee { width: 70%; background-color: #f39c12; }
+
+.pytorch { width: 70%; background-color: #8e44ad; }
+.r { width: 70%; background-color: #16a085; }
+.postgis { width: 50%; background-color: #d35400; }
+
+.docker { width: 70%; background-color: #2c3e50; }
+.cloud { width: 50%; background-color: #3498db; }
+.git { width: 70%; background-color: #c0392b; }
+</style>
 
 ## Let's connect
 
