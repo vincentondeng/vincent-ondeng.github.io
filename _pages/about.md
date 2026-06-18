@@ -14,10 +14,38 @@ As geospatial data grows in scale and complexity, so does the need for smarter t
 
 ## What Drives Me
 
-Geospatial data sits at the heart of some of the most pressing challenges of our time where diseases spread, how cities expand, and how climate shifts reshape the 
-land beneath us.
+<section class="intro">
+  <p class="lead">
+    Geospatial data sits at the heart of some of the most pressing challenges of our time — 
+    where diseases spread, how cities expand, and how climate shifts reshape the land beneath us.
+  </p>
 
-I build models and spatial systems that connect location patterns to real-world outcomes from mapping disease transmission corridors to understanding how urban growth and environmental stress compound each other across rapidly changing landscapes.
+  <p>
+    I build models and spatial systems that connect location patterns to real-world outcomes — 
+    from mapping disease transmission corridors to understanding how urban growth and environmental 
+    stress compound each other across rapidly changing landscapes.
+  </p>
+</section>
+
+<style>
+.intro {
+  margin: 30px 0;
+  padding: 20px;
+  background: #f9f9f9;
+  border-left: 5px solid #3498db;
+  border-radius: 6px;
+}
+.lead {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+.intro p {
+  line-height: 1.6;
+  color: #444;
+}
+</style>
 
 ---
 
