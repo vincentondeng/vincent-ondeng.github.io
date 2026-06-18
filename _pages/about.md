@@ -120,17 +120,17 @@ Quantitative researcher with expertise in mathematical sciences, spatial epidemi
 .progress-bar { height: 70%; border-radius: 6px; }
 
 /* Widths/colors for each skill */
-.python { width: 90%; background-color: #27ae60; }
-.qgis { width: 70%; background-color: #2980b9; }
-.gee { width: 70%; background-color: #f39c12; }
+.python { width: 100%; background-color: #16a085; }
+.qgis { width: 100%; background-color: #16a085; }
+.gee { width: 100%; background-color: #16a085; }
 
-.pytorch { width: 70%; background-color: #8e44ad; }
-.r { width: 70%; background-color: #16a085; }
-.postgis { width: 50%; background-color: #d35400; }
+.pytorch { width: 100%; background-color: #16a085; }
+.r { width: 100%; background-color: #16a085; }
+.postgis { width: 100%; background-color: #16a085; }
 
-.docker { width: 70%; background-color: #2c3e50; }
-.cloud { width: 50%; background-color: #3498db; }
-.git { width: 70%; background-color: #c0392b; }
+.docker { width: 100%; background-color: #16a085; }
+.cloud { width: 100%; background-color: #16a085; }
+.git { width: 100%; background-color: #16a085; }
 </style>
 
 ## Let's connect
@@ -138,12 +138,48 @@ Quantitative researcher with expertise in mathematical sciences, spatial epidemi
 Open to full-time roles, freelance projects, and research collaborations in geospatial data science. Let's build something useful. Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
 
 <div class="social-links">
-  <a href="mailto:vincent.ondeng@aims.ac.rw" class="btn primary">Email</a>
-  <a href="https://github.com/vincentondeng" target="_blank" class="btn github">GitHub</a>
-  <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn kaggle">Kaggle</a>
-  <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn linkedin">LinkedIn</a>
-  <a href="https://twitter.com/vincentondeng" target="_blank" class="btn twitter">Twitter</a>
-  <a href="https://medium.com/@vincentondeng" target="_blank" class="btn medium">Medium</a>
+  <a href="mailto:vincent.ondeng@aims.ac.rw" class="btn primary">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v.217l-8 4.8-8-4.8V4z"/>
+      <path d="M0 6.383v5.617A2 2 0 0 0 2 14h12a2 2 0 0 0 2-2V6.383l-8 4.8-8-4.8z"/>
+    </svg>
+    Email
+  </a>
+
+  <a href="https://github.com/vincentondeng" target="_blank" class="btn github">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54..."/>
+    </svg>
+    GitHub
+  </a>
+
+  <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn kaggle">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 0C5.373 0 0 5.373..."/>
+    </svg>
+    Kaggle
+  </a>
+
+  <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn linkedin">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M1.146 1.146C.5 1.793..."/>
+    </svg>
+    LinkedIn
+  </a>
+
+  <a href="https://twitter.com/vincentondeng" target="_blank" class="btn twitter">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M5 15c6.627 0 10.25-5.373..."/>
+    </svg>
+    Twitter
+  </a>
+
+  <a href="https://medium.com/@vincentondeng" target="_blank" class="btn medium">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+      <path d="M2 2h12v12H2z"/>
+    </svg>
+    Medium
+  </a>
 </div>
 
 <style>
@@ -157,7 +193,7 @@ Open to full-time roles, freelance projects, and research collaborations in geos
 .btn {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  gap: 8px;
   padding: 10px 18px;
   border-radius: 6px;
   font-size: 14px;
@@ -167,7 +203,10 @@ Open to full-time roles, freelance projects, and research collaborations in geos
   transition: all 0.25s ease-in-out;
 }
 
-/* Default button style */
+.btn svg {
+  flex-shrink: 0;
+}
+
 .btn:hover {
   opacity: 0.9;
   transform: translateY(-2px);
