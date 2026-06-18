@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-As geospatial data grows in scale and complexity, so does the need for smarter tools and methods to make sense of it. I build spatial models and machine learning pipelines that turn vast location datasets into clear, actionable insights, helping urban planners and land use decision-makers across Africa understand where change is happening, why it matters, and what comes next.
+Quantitative researcher with expertise in mathematical sciences, spatial epidemiology, and geospatial data science. I work with multi‑country datasets and satellite‑derived environmental metrics, applying R and Python to build statistical and spatial models that uncover how climate exposures and environmental factors drive infectious disease risks. My focus is on producing evidence that guides public health policy and climate adaptation.
 
 ---
 
@@ -16,14 +16,11 @@ As geospatial data grows in scale and complexity, so does the need for smarter t
 
 <section class="intro">
   <p class="lead">
-    Geospatial data sits at the heart of some of the most pressing challenges of our time — 
-    where diseases spread, how cities expand, and how climate shifts reshape the land beneath us.
+    Geospatial data sits at the heart of some of the most pressing challenges of our time where diseases spread, how cities expand, and how climate shifts reshape the land beneath us.
   </p>
 
   <p>
-    I build models and spatial systems that connect location patterns to real-world outcomes — 
-    from mapping disease transmission corridors to understanding how urban growth and environmental 
-    stress compound each other across rapidly changing landscapes.
+    I build models and spatial systems that connect location patterns to real-world outcomes from mapping disease transmission corridors to understanding how urban growth and environmental stress compound each other across rapidly changing landscapes.
   </p>
 </section>
 
@@ -140,23 +137,50 @@ As geospatial data grows in scale and complexity, so does the need for smarter t
 
 Open to full-time roles, freelance projects, and research collaborations in geospatial data science. Let's build something useful. Feel free to explore the site and reach out if you’d like to collaborate, share ideas, or just say hello!
 
-<div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:1rem;">
-  <a href="mailto:vincent.ondeng@aims.ac.rw" 
-     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
-            background:#1D9E75; color:white; border-radius:6px; 
-            text-decoration:none; font-size:14px;">
-    Email me
-  </a>
-  <a href="https://github.com/vincentondeng" target="_blank"
-     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
-            border:1px solid #ccc; border-radius:6px; 
-            text-decoration:none; font-size:14px; color:inherit;">
-    GitHub
-  </a>
-  <a href="https://kaggle.com/vincentondeng" target="_blank"
-     style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px; 
-            border:1px solid #ccc; border-radius:6px; 
-            text-decoration:none; font-size:14px; color:inherit;">
-    Kaggle
-  </a>
+<div class="social-links">
+  <a href="mailto:vincent.ondeng@aims.ac.rw" class="btn primary">Email</a>
+  <a href="https://github.com/vincentondeng" target="_blank" class="btn">GitHub</a>
+  <a href="https://kaggle.com/vincentondeng" target="_blank" class="btn">Kaggle</a>
+  <a href="https://linkedin.com/in/vincentondeng" target="_blank" class="btn">LinkedIn</a>
+  <a href="https://twitter.com/vincentondeng" target="_blank" class="btn">Twitter</a>
+  <a href="https://medium.com/@vincentondeng" target="_blank" class="btn">Medium</a>
 </div>
+
+<style>
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 18px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ccc;
+  background: #fff;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn:hover {
+  background: #f5f5f5;
+  border-color: #999;
+  transform: translateY(-2px);
+}
+
+.btn.primary {
+  background: #1D9E75;
+  color: #fff;
+  border: none;
+}
+
+.btn.primary:hover {
+  background: #148f66;
+}
+</style>
