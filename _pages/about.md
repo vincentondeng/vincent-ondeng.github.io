@@ -91,8 +91,8 @@ I build models and spatial systems that connect location patterns to real-world 
 .skill { margin-bottom: 25px; }
 .skill-title { font-weight: bold; font-size: 0.9em; margin-bottom: 5px; color: #34495e; }
 .skill-sub { font-size: 0.65em; color: #555; margin-bottom: 8px; }
-.progress { background-color: #eee; border-radius: 6px; overflow: hidden; height: 14px; }
-.progress-bar { height: 100%; border-radius: 6px; }
+.progress { background-color: #eee; border-radius: 6px; overflow: hidden; height: 10px; }
+.progress-bar { height: 70%; border-radius: 6px; }
 
 /* Widths/colors for each skill */
 .python { width: 90%; background-color: #27ae60; }
