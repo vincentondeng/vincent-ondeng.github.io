@@ -23,7 +23,7 @@ I build models and spatial systems that connect location patterns to real-world 
 
 ## My Toolkit
 
-** Spatial Analysis & Engineering **
+### Spatial Analysis & Engineering 
 
 <div class="skill">
   <div class="skill-title">Python</div>
@@ -45,7 +45,7 @@ I build models and spatial systems that connect location patterns to real-world 
 
 ---
 
-## Data Science & Modelling
+### Data Science & Modelling
 
 <div class="skill">
   <div class="skill-title">Scikit-learn / PyTorch</div>
@@ -67,7 +67,7 @@ I build models and spatial systems that connect location patterns to real-world 
 
 ---
 
-## Infrastructure & Deployment
+### Infrastructure & Deployment
 
 <div class="skill">
   <div class="skill-title">Docker</div>
@@ -89,8 +89,8 @@ I build models and spatial systems that connect location patterns to real-world 
 
 <style>
 .skill { margin-bottom: 25px; }
-.skill-title { font-weight: bold; font-size: 1.1em; margin-bottom: 5px; color: #34495e; }
-.skill-sub { font-size: 0.95em; color: #555; margin-bottom: 8px; }
+.skill-title { font-weight: bold; font-size: 0.9em; margin-bottom: 5px; color: #34495e; }
+.skill-sub { font-size: 0.65em; color: #555; margin-bottom: 8px; }
 .progress { background-color: #eee; border-radius: 6px; overflow: hidden; height: 14px; }
 .progress-bar { height: 100%; border-radius: 6px; }
 
