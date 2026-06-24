@@ -2,6 +2,8 @@
 title: "STAC Vegetation Index Pipeline"
 excerpt: "A reusable Python module for querying any STAC catalog, lazily loading satellite imagery, computing vegetation indices, and exporting Cloud Optimized GeoTIFFs — parametrized by bounding box, date range, and cloud cover."
 collection: portfolio
+header:
+  teaser: "images/stac-pipeline-thumb.svg"
 ---
 
 <p>
