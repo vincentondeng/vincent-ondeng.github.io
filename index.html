@@ -6,6 +6,7 @@
   <meta name="description" content="Vincent Ondeng is a geospatial data scientist working across Earth observation, urban analytics, and spatial epidemiology.">
   <meta name="theme-color" content="#ffffff">
   <title>Vincent Ondeng | Geospatial Data Scientist</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23315f7d'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='40' font-weight='600' text-anchor='middle' fill='%23ffffff'%3EV%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap" rel="stylesheet">
@@ -131,7 +132,8 @@
     .contact-copy { max-width: 680px; margin: 12px 0 22px; }
     .contact-email { display: inline-block; margin-bottom: 20px; font-weight: 600; text-decoration: none; }
     .socials { display: flex; flex-wrap: wrap; gap: 20px; padding: 0; margin: 0; list-style: none; }
-    .socials a { color: var(--body); font-size: .9rem; text-decoration: none; }
+    .socials a { display: inline-flex; align-items: center; gap: 8px; color: var(--body); font-size: .9rem; text-decoration: none; }
+    .social-icon { flex: none; width: 16px; height: 16px; }
     .socials a:hover { color: var(--blue); text-decoration: underline; }
     footer { padding: 20px 0; border-top: 1px solid var(--line); color: var(--muted); font-size: .8rem; }
     .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
@@ -200,7 +202,7 @@
           <p>I am interested in how environmental and climate-related factors intersect with infectious disease risk, urban growth, and changing landscapes. I aim to build reproducible analytical workflows and produce spatial evidence that can contribute to public health research and climate adaptation.</p>
         </div>
         <div class="meta">
-          <span>Kigali, Rwanda</span>
+          <span>Nairobi, Kenya</span>
           <span>African Institute for Mathematical Sciences</span>
           <span>vincent.ondeng@aims.ac.rw</span>
         </div>
@@ -250,21 +252,11 @@
         </article>
 
         <article class="project">
-          <div><span class="project-type">Time-series modelling</span><span class="project-place">Satellite land surface temperature</span></div>
-          <div>
-            <h3>Forecasting Land Surface Temperature</h3>
-            <p>This project uses historical satellite-derived land surface temperature records to build an ARIMA time-series forecast. The analysis focuses on how past temperature patterns can inform expectations of future conditions, with possible applications in climate-sensitive agriculture and public health planning.</p>
-            <div class="chips"><span class="chip">ARIMA</span><span class="chip">Remote sensing</span><span class="chip">R</span></div>
-            <a class="project-link" href="#project/forecasting-land-surface-temperature">Read more →</a>
-          </div>
-        </article>
-
-        <article class="project">
-          <div><span class="project-type">Urban analytics</span><span class="project-place">Call detail records</span></div>
+          <div><span class="project-type">Urban analytics</span><span class="project-place">Call detail records · 1.5M users</span></div>
           <div>
             <h3>Mobility Analysis from Call Detail Records</h3>
-            <p>This project derives movement patterns from call detail records to examine how people move through urban areas. The analysis connects mobility patterns with potential uses in urban planning, disaster response, and crisis mapping, while treating location data as an aggregate source for understanding city dynamics.</p>
-            <div class="chips"><span class="chip">CDR</span><span class="chip">Mobility modelling</span><span class="chip">Python</span></div>
+            <p>A PySpark pipeline that turns raw call detail records for 1.5 million users into individual mobility metrics: unique locations visited and radius of gyration. It then tests how the two relate, with applications in urban planning, disaster response and crisis mapping.</p>
+            <div class="chips"><span class="chip">PySpark</span><span class="chip">Pandas UDF</span><span class="chip">CDR</span><span class="chip">Python</span></div>
             <a class="project-link" href="#project/mobility-analysis-cdr">Read more →</a>
           </div>
         </article>
@@ -273,8 +265,8 @@
           <div><span class="project-type">Open-source tooling</span><span class="project-place">Catalog-agnostic</span></div>
           <div>
             <h3>STAC Vegetation Index Pipeline</h3>
-            <p>This project packages a repeatable satellite-imagery workflow around STAC catalogs. Users can specify a bounding box, date range, and cloud-cover threshold; the module retrieves imagery, computes vegetation indices, and exports Cloud-Optimized GeoTIFFs for downstream analysis.</p>
-            <div class="chips"><span class="chip">STAC</span><span class="chip">COG</span><span class="chip">Dask</span></div>
+            <p>A reusable Python module that queries any STAC catalog, lazily loads only the imagery covering your area of interest, computes NDVI, EVI and SAVI, and exports Cloud-Optimized GeoTIFFs. Set a bounding box, date range and cloud-cover threshold, and the module does the rest.</p>
+            <div class="chips"><span class="chip">STAC</span><span class="chip">stackstac</span><span class="chip">COG</span><span class="chip">xarray</span></div>
             <a class="project-link" href="#project/stac-vegetation-index-pipeline">Read more →</a>
           </div>
         </article>
@@ -314,11 +306,11 @@
         <p class="contact-copy">I am open to research collaborations, geospatial data science opportunities, and technical roles. Please feel free to reach out to discuss research, projects, or potential collaborations.</p>
         <a class="contact-email" href="mailto:vincent.ondeng@aims.ac.rw">vincent.ondeng@aims.ac.rw</a>
         <ul class="socials">
-          <li><a href="https://github.com/vincentondeng" target="_blank" rel="noopener noreferrer">GitHub ↗</a></li>
-          <li><a href="https://kaggle.com/vincentondeng" target="_blank" rel="noopener noreferrer">Kaggle ↗</a></li>
-          <li><a href="https://linkedin.com/in/vincentondeng" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
-          <li><a href="https://twitter.com/vincentondeng" target="_blank" rel="noopener noreferrer">Twitter ↗</a></li>
-          <li><a href="https://medium.com/@vincentondeng" target="_blank" rel="noopener noreferrer">Medium ↗</a></li>
+          <li><a href="https://github.com/vincentondeng" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>GitHub ↗</a></li>
+          <li><a href="https://kaggle.com/vincentondeng" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="currentColor"><path d="M.1025 7.3475c-.0681 0-.1022.0341-.1022.102v6.752c0 .0681.034.1022.1022.1022h.7049c.068 0 .1022-.034.1022-.1023v-1.481l.4187-.3985 1.5016 1.91c.041.0477.0884.0716.143.0716h.9091c.0476 0 .0748-.0135.0817-.0407.0135-.041.0066-.075-.0206-.1023l-1.9816-2.4618 1.9002-1.8384c.0204-.0205.0237-.051.01-.092-.0137-.0339-.0408-.051-.0816-.051h-.9398c-.0477 0-.0953.024-.143.0716L.9096 11.607V7.4496c0-.0679-.0342-.102-.1022-.102zm18.0417 0c-.068 0-.102.0341-.102.102v6.752c0 .0681.034.102.102.102h.705c.068 0 .102-.034.102-.102v-6.752c0-.068-.034-.102-.102-.102zM5.961 9.6254c-.5653 0-1.11.1806-1.6343.5415-.0545.0545-.0648.102-.0307.143l.3676.5208c.0272.0477.0717.0545.133.0204.3948-.2722.783-.4086 1.1644-.4086.2927 0 .5158.0886.669.2656.1532.1771.2197.3917.1992.6436-.6606.0681-1.1545.1495-1.4813.245-.8308.2383-1.2461.6913-1.2461 1.3586 0 .4222.1533.7695.4598 1.0419.3132.2654.6845.3982 1.1134.3982.4698 0 .8545-.1125 1.1542-.3372v.1432c0 .0682.0374.102.1123.102h.7048c.068 0 .102-.0338.102-.102V11.372c0-.6604-.2245-1.1406-.6739-1.4403-.3065-.2043-.6776-.3063-1.1134-.3063zm4.3225 0c-.6742 0-1.195.2622-1.5627.7865-.3133.4359-.4699.9671-.4699 1.5936 0 .6604.1634 1.2087.4903 1.6444.3744.4972.892.7455 1.5526.7455.5313 0 .9567-.1327 1.2768-.3982v.531c0 .858-.4122 1.287-1.236 1.287-.361 0-.732-.1907-1.1132-.572a.098.098 0 00-.0716-.0306c-.034 0-.0613.0102-.0817.0307l-.4802.48c-.0408.0613-.0375.1124.0103.1532.1361.1157.2554.2129.3576.2911.102.0783.1905.1413.2656.189.354.1975.7284.2961 1.1235.2961.6808 0 1.207-.1925 1.5781-.577.3711-.3848.5567-.9484.5567-1.6903V9.8196c0-.068-.034-.102-.102-.102h-.705c-.0682 0-.1021.034-.1021.102v.2043c-.3471-.2657-.7763-.3985-1.287-.3985zm4.8021 0c-.6742 0-1.195.2622-1.5627.7865-.3132.4359-.4699.9671-.4699 1.5936 0 .6604.1633 1.2087.4903 1.6444.3744.4972.892.7455 1.5526.7455.5311 0 .9566-.1327 1.2768-.3982v.531c0 .858-.4122 1.287-1.236 1.287-.361 0-.732-.1907-1.1133-.572a.098.098 0 00-.0716-.0306c-.034 0-.0612.0102-.0816.0307l-.48.48c-.0409.0613-.0376.1124.01.1532.1363.1157.2555.2129.3576.2911.1021.0783.1906.1413.2657.189.354.1975.7285.2961 1.1237.2961.6808 0 1.2068-.1925 1.5781-.577.371-.3848.5565-.9484.5565-1.6903V9.8196c0-.068-.034-.102-.102-.102h-.7049c-.0682 0-.1022.034-.1022.102v.2043c-.3474-.2657-.7763-.3985-1.287-.3985zm6.7457 0c-.6537 0-1.185.211-1.5936.6332-.4427.4632-.664 1.0283-.664 1.6956 0 .7083.225 1.2905.6743 1.7467.463.463 1.042.6945 1.7366.6945.6467 0 1.2154-.1838 1.7057-.5515.0545-.041.0545-.0884 0-.143l-.4802-.4903c-.041-.0409-.0919-.0409-.1533 0-.2998.2112-.6368.3167-1.0112.3167-.4222 0-.7729-.119-1.052-.3576-.2452-.2248-.3882-.5038-.429-.8375h3.3197c.0679 0 .1022-.0341.1022-.1023l.01-.2244c.0341-.6878-.1668-1.26-.6025-1.7162-.4224-.4426-.9432-.664-1.5627-.664zm-.0206.7865c.3268 0 .6062.1056.8377.3166.2452.211.371.4734.378.7865h-2.4618c.0613-.3269.2077-.5925.4392-.7968.2313-.2042.5004-.3063.8069-.3063zm-11.4249.102c.6196 0 1.0146.2181 1.1848.6538v1.6854c-.1702.4358-.5755.6538-1.2155.6538-.3133 0-.5687-.0986-.7661-.2963-.2656-.2518-.3983-.6538-.3983-1.2053 0-.9941.3984-1.4914 1.1951-1.4914zm4.802 0c.6196 0 1.0148.2181 1.1851.6538h-.0002v1.6854c-.1703.4358-.5755.6538-1.2155.6538-.3132 0-.5686-.0986-.7661-.2963-.2655-.2518-.3983-.6538-.3983-1.2053 0-.9941.3983-1.4914 1.195-1.4914zm-8.3586 1.6547v1.0215c-.286.286-.6675.412-1.1441.3779-.1703-.0135-.32-.0663-.4493-.1582-.1294-.0919-.2045-.2129-.2249-.3627-.0341-.2657.1158-.47.4495-.6129.2452-.1088.7013-.1974 1.3688-.2656z"/></svg>Kaggle ↗</a></li>
+          <li><a href="https://linkedin.com/in/vincentondeng" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="currentColor"><path fill-rule="evenodd" d="M4 1h16a3 3 0 0 1 3 3v16a3 3 0 0 1-3 3H4a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3zM4.75 6.3a1.75 1.75 0 1 0 3.5 0a1.75 1.75 0 1 0-3.5 0zM5 9.3h3v9.5H5zM10.2 9.3h2.9v1.3c.5-.9 1.6-1.5 3-1.5 2.9 0 3.7 1.9 3.7 4.4v5.3h-3v-4.7c0-1.1-.1-2-1.3-2-1.3 0-1.5.9-1.5 2v4.7h-3z"/></svg>LinkedIn ↗</a></li>
+          <li><a href="https://twitter.com/vincentondeng" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="currentColor"><path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z"/></svg>Twitter ↗</a></li>
+          <li><a href="https://medium.com/@vincentondeng" target="_blank" rel="noopener noreferrer"><svg class="social-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="currentColor"><path d="M4.21 0A4.201 4.201 0 0 0 0 4.21v15.58A4.201 4.201 0 0 0 4.21 24h15.58A4.201 4.201 0 0 0 24 19.79v-1.093c-.137.013-.278.02-.422.02-2.577 0-4.027-2.146-4.09-4.832a7.592 7.592 0 0 1 .022-.708c.093-1.186.475-2.241 1.105-3.022a3.885 3.885 0 0 1 1.395-1.1c.468-.237 1.127-.367 1.664-.367h.023c.101 0 .202.004.303.01V4.211A4.201 4.201 0 0 0 19.79 0Zm.198 5.583h4.165l3.588 8.435 3.59-8.435h3.864v.146l-.019.004c-.705.16-1.063.397-1.063 1.254h-.003l.003 10.274c.06.676.424.885 1.063 1.03l.02.004v.145h-4.923v-.145l.019-.005c.639-.144.994-.353 1.054-1.03V7.267l-4.745 11.15h-.261L6.15 7.569v9.445c0 .857.358 1.094 1.063 1.253l.02.004v.147H4.405v-.147l.019-.004c.705-.16 1.065-.397 1.065-1.253V6.987c0-.857-.358-1.094-1.064-1.254l-.018-.004zm19.25 3.668c-1.086.023-1.733 1.323-1.813 3.124H24V9.298a1.378 1.378 0 0 0-.342-.047Zm-1.862 3.632c-.1 1.756.86 3.239 2.204 3.634v-3.634z"/></svg>Medium ↗</a></li>
         </ul>
       </div>
     </section>
@@ -346,27 +338,82 @@
         <a class="back-projects bottom-back" href="#projects">← Back to all projects</a>
       </div>
     </section>
-<section class="project-page" id="project-forecasting-land-surface-temperature" data-project-page hidden>
-      <div class="wrap project-page-inner">
-        <a class="back-projects" href="#projects">← Back to all projects</a>
-        <p class="eyebrow project-page-type">Time-series modelling</p>
-        <h1>Forecasting Land Surface Temperature</h1>
-        <p class="project-page-place">Satellite land surface temperature</p>
-        <div class="project-page-overview"><h2>Project overview</h2><p>This project uses historical satellite-derived land surface temperature records to build an ARIMA time-series forecast, with possible applications in climate-sensitive agriculture and public health planning.</p></div>
-        <ul class="interest-list project-page-tools" aria-label="Methods and tools"><li>ARIMA</li><li>Remote sensing</li><li>R</li></ul>
-        <section class="detail-section"><h3>Research questions</h3><p>How well can historical land surface temperature observations support forecasts over the selected study area and time horizon?</p></section><section class="detail-section"><h3>Study area and data</h3><p>Specify the satellite product, location, observation period, temporal resolution, and preprocessing.</p></section><section class="detail-section"><h3>Methods and workflow</h3><p>Document time-series preparation, ARIMA model selection, validation strategy, and forecast horizon.</p></section><section class="detail-section"><h3>Findings and outputs</h3><p>Add forecast plots, validation results, uncertainty, and interpretation for the intended applications.</p></section><section class="detail-section"><h3>Resources</h3><p>Add links to the analysis, data source, and any report or notebook.</p></section>
-        <a class="back-projects bottom-back" href="#projects">← Back to all projects</a>
-      </div>
-    </section>
 <section class="project-page" id="project-mobility-analysis-cdr" data-project-page hidden>
       <div class="wrap project-page-inner">
         <a class="back-projects" href="#projects">← Back to all projects</a>
         <p class="eyebrow project-page-type">Urban analytics</p>
         <h1>Mobility Analysis from Call Detail Records</h1>
-        <p class="project-page-place">Call detail records</p>
-        <div class="project-page-overview"><h2>Project overview</h2><p>This project derives movement patterns from call detail records to examine how people move through urban areas, with possible applications in urban planning, disaster response, and crisis mapping.</p></div>
-        <ul class="interest-list project-page-tools" aria-label="Methods and tools"><li>CDR</li><li>Mobility modelling</li><li>Python</li></ul>
-        <section class="detail-section"><h3>Research questions</h3><p>What spatial and temporal patterns of movement can be described from the available call detail records?</p></section><section class="detail-section"><h3>Study area and data</h3><p>Describe geographic and temporal coverage, aggregation level, and privacy-preserving handling of the records.</p></section><section class="detail-section"><h3>Methods and workflow</h3><p>Explain how records were cleaned, spatially aggregated, and used to derive mobility patterns.</p></section><section class="detail-section"><h3>Findings and outputs</h3><p>Add mobility summaries, maps, limitations, and implications supported by the analysis.</p></section><section class="detail-section"><h3>Resources</h3><p>Add links to code, methods documentation, and any public outputs.</p></section>
+        <p class="project-page-place">Call detail records · 1.5M users</p>
+        <div class="project-page-overview"><h2>Project overview</h2><p>During the COVID-19 lockdowns in 2020, governments used mobile network data to check whether movement restrictions were holding. Call Detail Records (CDRs) make that possible: every connection to a cell tower leaves a trace that estimates where a user is over time. This project builds the processing side of that idea, a PySpark pipeline that turns raw CDRs for 1.5 million users into per-user mobility metrics.</p></div>
+        <ul class="interest-list project-page-tools" aria-label="Methods and tools"><li>Python</li><li>PySpark</li><li>Pandas UDFs</li><li>NumPy</li><li>Seaborn</li><li>Matplotlib</li></ul>
+
+        <section class="detail-section"><h3>Objectives</h3><p>Process call records for 1.5 million users with PySpark, generate summary statistics, and explore the relationship between the average number of unique locations per user per day and the average radius of gyration.</p></section>
+
+        <section class="detail-section"><h3>Data</h3><p>Call records for 1.5 million users over 14 days, from 29 June to 13 July 2018. Each record is joined to cell-tower coordinates, and records missing a cell ID, latitude or longitude are dropped.</p></section>
+
+        <section class="detail-section">
+          <h3>Methods and workflow</h3>
+          <p>Preprocessing runs in Spark. The radius of gyration, the distance a user typically moves from their centre of activity, is computed with a pandas UDF, which is much faster than converting the Spark DataFrame to pandas first. Repartitioning, caching and sampling during debugging keep the pipeline scalable.</p>
+          <div style="overflow-x:auto; margin-top:18px;">
+            <svg width="100%" viewBox="0 0 680 520" style="max-width:680px; display:block;" role="img" xmlns="http://www.w3.org/2000/svg">
+              <title>Mobility analysis pipeline</title>
+              <desc>Flowchart from raw call detail records through Spark preprocessing, summary statistics, daily user mobility metrics, user-level aggregation, and correlation analysis.</desc>
+              <defs>
+                <marker id="mob-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M2 1L8 5L2 9" fill="none" stroke="#637687" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </marker>
+                <style>
+                  .mob-io   { fill: #f5f8fa; stroke: #b8c9d4; }
+                  .mob-proc { fill: #ffffff; stroke: #315f7d; }
+                  .mob-t    { fill: #172b3a; font-family: "DM Sans", Arial, sans-serif; font-size: 14px; font-weight: 600; }
+                  .mob-s    { fill: #637687; font-family: "DM Sans", Arial, sans-serif; font-size: 12px; }
+                  .mob-arr  { stroke: #637687; stroke-width: 1.5; fill: none; marker-end: url(#mob-arrow); }
+                </style>
+              </defs>
+
+              <rect class="mob-io" x="180" y="20" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="42" text-anchor="middle" dominant-baseline="central">Raw call detail records</text>
+              <text class="mob-s" x="340" y="60" text-anchor="middle" dominant-baseline="central">1.5M users · 14 days</text>
+
+              <line class="mob-arr" x1="340" y1="76" x2="340" y2="108"/>
+
+              <rect class="mob-proc" x="180" y="108" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="130" text-anchor="middle" dominant-baseline="central">Spark preprocessing</text>
+              <text class="mob-s" x="340" y="148" text-anchor="middle" dominant-baseline="central">Clean · parse timestamps · join cell-tower locations</text>
+
+              <line class="mob-arr" x1="340" y1="164" x2="340" y2="196"/>
+
+              <rect class="mob-proc" x="180" y="196" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="218" text-anchor="middle" dominant-baseline="central">Summary statistics</text>
+              <text class="mob-s" x="340" y="236" text-anchor="middle" dominant-baseline="central">Events per user · date range</text>
+
+              <line class="mob-arr" x1="340" y1="252" x2="340" y2="284"/>
+
+              <rect class="mob-proc" x="180" y="284" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="306" text-anchor="middle" dominant-baseline="central">Daily user mobility metrics</text>
+              <text class="mob-s" x="340" y="324" text-anchor="middle" dominant-baseline="central">Unique locations · radius of gyration (pandas UDF)</text>
+
+              <line class="mob-arr" x1="340" y1="340" x2="340" y2="372"/>
+
+              <rect class="mob-proc" x="180" y="372" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="394" text-anchor="middle" dominant-baseline="central">User-level aggregation</text>
+              <text class="mob-s" x="340" y="412" text-anchor="middle" dominant-baseline="central">Active days · avg locations/day · avg radius of gyration</text>
+
+              <line class="mob-arr" x1="340" y1="428" x2="340" y2="460"/>
+
+              <rect class="mob-io" x="180" y="460" width="320" height="44" rx="6" stroke-width="1"/>
+              <text class="mob-t" x="340" y="482" text-anchor="middle" dominant-baseline="central">Correlation analysis</text>
+            </svg>
+          </div>
+        </section>
+
+        <section class="detail-section">
+          <h3>Findings</h3>
+          <p>Activity per user is heavily skewed: the median user has 3 records, the mean is about 7.8, three quarters of users have 8 or fewer, and the most active user has 8,277. Average radius of gyration and average unique locations per day are positively but modestly correlated (r = 0.32).</p>
+        </section>
+
+        <section class="detail-section"><h3>Resources</h3><p><a href="https://github.com/vincentondeng/BDA-with-Python/blob/main/vincent_ondeng_BDAP2.ipynb" target="_blank" rel="noopener noreferrer">Full Jupyter notebook on GitHub ↗</a></p></section>
+
         <a class="back-projects bottom-back" href="#projects">← Back to all projects</a>
       </div>
     </section>
@@ -376,9 +423,86 @@
         <p class="eyebrow project-page-type">Open-source tooling</p>
         <h1>STAC Vegetation Index Pipeline</h1>
         <p class="project-page-place">Catalog-agnostic</p>
-        <div class="project-page-overview"><h2>Project overview</h2><p>This project packages a repeatable satellite-imagery workflow around STAC catalogs. Users can specify a bounding box, date range, and cloud-cover threshold; the module retrieves imagery, computes vegetation indices, and exports Cloud-Optimized GeoTIFFs.</p></div>
-        <ul class="interest-list project-page-tools" aria-label="Methods and tools"><li>STAC</li><li>COG</li><li>Dask</li></ul>
-        <section class="detail-section"><h3>Purpose and use case</h3><p>Describe the use case and the vegetation indices supported by the pipeline.</p></section><section class="detail-section"><h3>Inputs and configuration</h3><p>Document supported STAC catalogs, required assets, bounding-box format, date range, and cloud-cover parameter.</p></section><section class="detail-section"><h3>Processing workflow</h3><p>Explain catalog search, imagery loading, index computation, scaling, and Cloud-Optimized GeoTIFF export.</p></section><section class="detail-section"><h3>Outputs and validation</h3><p>Specify output bands, file conventions, checks, and representative results.</p></section><section class="detail-section"><h3>Resources</h3><p>Add installation instructions, code repository, examples, and license.</p></section>
+        <div class="project-page-overview"><h2>Project overview</h2><p>Satellite imagery is everywhere, but getting from a STAC catalog to a clean, analysis-ready raster still takes more effort than it should. This module removes that friction: pass in a bounding box, date range and cloud-cover threshold, and it returns vegetation indices as Cloud-Optimized GeoTIFFs.</p></div>
+        <ul class="interest-list project-page-tools" aria-label="Methods and tools"><li>Python</li><li>STAC</li><li>pystac-client</li><li>stackstac</li><li>xarray</li><li>Rasterio</li><li>Cloud-Optimized GeoTIFF</li></ul>
+
+        <section class="detail-section"><h3>Purpose and use case</h3><p>The pipeline is built around pystac-client and stackstac. It queries any STAC-compliant catalog and loads only the imagery that intersects your area of interest, so unnecessary data never enters memory. It computes NDVI, EVI and SAVI, and writes results that open directly in QGIS, GDAL and cloud-based raster APIs. The workflow is fully parametrized, designed for reproducibility and scale.</p></section>
+
+        <section class="detail-section"><h3>Inputs and configuration</h3><p>Three parameters drive a run: a bounding box, a date range and a cloud-cover threshold. The STAC catalog is a configurable source, so the same code runs against any compliant endpoint.</p></section>
+
+        <section class="detail-section">
+          <h3>Processing workflow</h3>
+          <p>From user parameters to exported rasters, in six steps.</p>
+          <div style="overflow-x:auto; margin-top:18px;">
+            <svg width="100%" viewBox="0 0 680 520" style="max-width:680px; display:block;" role="img" xmlns="http://www.w3.org/2000/svg">
+              <title>STAC Vegetation Index Pipeline</title>
+              <desc>Flowchart from user parameters through STAC catalog query, lazy image loading, blue, red and near-infrared band selection, vegetation index computation, and Cloud-Optimized GeoTIFF export.</desc>
+              <defs>
+                <marker id="stac-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M2 1L8 5L2 9" fill="none" stroke="#637687" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </marker>
+                <style>
+                  .stac-io   { fill: #f5f8fa; stroke: #b8c9d4; }
+                  .stac-proc { fill: #ffffff; stroke: #315f7d; }
+                  .stac-band { fill: #eaf1f6; stroke: #8fb0c5; }
+                  .stac-t    { fill: #172b3a; font-family: "DM Sans", Arial, sans-serif; font-size: 14px; font-weight: 600; }
+                  .stac-s    { fill: #637687; font-family: "DM Sans", Arial, sans-serif; font-size: 12px; }
+                  .stac-arr  { stroke: #637687; stroke-width: 1.5; fill: none; marker-end: url(#stac-arrow); }
+                </style>
+              </defs>
+
+              <rect class="stac-io" x="190" y="20" width="300" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="42" text-anchor="middle" dominant-baseline="central">User parameters</text>
+              <text class="stac-s" x="340" y="60" text-anchor="middle" dominant-baseline="central">Bounding box · date range · cloud cover</text>
+
+              <line class="stac-arr" x1="340" y1="76" x2="340" y2="108"/>
+
+              <rect class="stac-proc" x="180" y="108" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="130" text-anchor="middle" dominant-baseline="central">STAC catalog query</text>
+              <text class="stac-s" x="340" y="148" text-anchor="middle" dominant-baseline="central">pystac-client · any STAC-compliant source</text>
+
+              <line class="stac-arr" x1="340" y1="164" x2="340" y2="196"/>
+
+              <rect class="stac-proc" x="180" y="196" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="218" text-anchor="middle" dominant-baseline="central">Lazy image loading</text>
+              <text class="stac-s" x="340" y="236" text-anchor="middle" dominant-baseline="central">stackstac · only AOI tiles loaded into memory</text>
+
+              <line class="stac-arr" x1="300" y1="252" x2="140" y2="284"/>
+              <line class="stac-arr" x1="340" y1="252" x2="340" y2="284"/>
+              <line class="stac-arr" x1="380" y1="252" x2="540" y2="284"/>
+
+              <rect class="stac-band" x="60" y="284" width="160" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="140" y="306" text-anchor="middle" dominant-baseline="central">Blue band</text>
+              <text class="stac-s" x="140" y="324" text-anchor="middle" dominant-baseline="central">B02 · 490 nm</text>
+
+              <rect class="stac-band" x="260" y="284" width="160" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="306" text-anchor="middle" dominant-baseline="central">Red band</text>
+              <text class="stac-s" x="340" y="324" text-anchor="middle" dominant-baseline="central">B04 · 665 nm</text>
+
+              <rect class="stac-band" x="460" y="284" width="160" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="540" y="306" text-anchor="middle" dominant-baseline="central">NIR band</text>
+              <text class="stac-s" x="540" y="324" text-anchor="middle" dominant-baseline="central">B08 · 842 nm</text>
+
+              <line class="stac-arr" x1="140" y1="340" x2="280" y2="372"/>
+              <line class="stac-arr" x1="340" y1="340" x2="340" y2="372"/>
+              <line class="stac-arr" x1="540" y1="340" x2="400" y2="372"/>
+
+              <rect class="stac-proc" x="180" y="372" width="320" height="56" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="394" text-anchor="middle" dominant-baseline="central">Vegetation index computation</text>
+              <text class="stac-s" x="340" y="412" text-anchor="middle" dominant-baseline="central">NDVI · EVI · SAVI</text>
+
+              <line class="stac-arr" x1="340" y1="428" x2="340" y2="460"/>
+
+              <rect class="stac-io" x="180" y="460" width="320" height="44" rx="6" stroke-width="1"/>
+              <text class="stac-t" x="340" y="482" text-anchor="middle" dominant-baseline="central">Cloud-Optimized GeoTIFF export</text>
+            </svg>
+          </div>
+        </section>
+
+        <section class="detail-section"><h3>Outputs</h3><p>Each run exports Cloud-Optimized GeoTIFFs, ready for QGIS, GDAL and cloud-based raster APIs without conversion.</p></section>
+
+        <section class="detail-section"><h3>Resources</h3><p><a href="https://github.com/vincentondeng" target="_blank" rel="noopener noreferrer">View on GitHub ↗</a></p></section>
+
         <a class="back-projects bottom-back" href="#projects">← Back to all projects</a>
       </div>
     </section>
