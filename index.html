@@ -527,6 +527,11 @@
       else if (location.hash) requestAnimationFrame(() => document.getElementById(location.hash.slice(1))?.scrollIntoView());
     }
     window.addEventListener("hashchange", showRoute);
+    const nav = performance.getEntriesByType("navigation")[0];
+    if (nav && nav.type === "reload" && location.hash && !location.hash.startsWith("#project/")) {
+      history.replaceState(null, "", location.pathname + location.search);
+      window.scrollTo(0, 0);
+    }
     showRoute();
 
     const toggle = document.getElementById("navToggle");
